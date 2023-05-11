@@ -1,0 +1,82 @@
+/*SARA QUÍLEZ*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #242424;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-transform: uppercase; 
+    color: #ff4081;
+    font-family: 'Arial', sans-serif;
+    font-size: 3em;
+    letter-spacing: 2px; 
+    text-shadow: 2px 2px 4px #ffffff;
+    margin: 10px;
+}
+
+#fileSelector {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#loadingMessage {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#videoPlayer {
+    width: 50%;
+    max-width: 800px;
+    height: 60%;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+}
+
+#controls {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+button {
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    font-size: 1em;
+    color: #ffffff;
+    background-color: #555;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+    box-shadow: 3px 3px 6px rgba(78, 78, 78, 0.5); 
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff4081;
+    box-shadow: 2px 2px 4px rgba(255, 54, 155, 0.5); 
+}
+
+button:active {
+    background-color: #7e002a;
+    box-shadow: 2px 2px 4px rgba(91, 10, 51, 0.5);
+}
+
+button:focus {
+    outline: none;
+}
